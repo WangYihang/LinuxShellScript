@@ -13,4 +13,6 @@ for filename in `ls -I $0 ./scripts/`
 		numbers="${numbers}|${i}"
 	done
 numbers="("${numbers}"|)"
-echo "请选择需要执行的脚本 : $numbers ?"
+echo "请选择需要执行的脚本 : $numbers ?l"
+
+
