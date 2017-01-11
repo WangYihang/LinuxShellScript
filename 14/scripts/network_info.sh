@@ -13,5 +13,4 @@ do
 	test "$ip_addr" != "" && echo "    IP  地址 : "$ip_addr
 	test "$ip_bcast" != "" && echo "    广播地址 : "$ip_bcast
 	test "$ip_mask" != "" && echo "    子网掩码 : "$ip_mask
-	echo "-----------------------------"
 done
