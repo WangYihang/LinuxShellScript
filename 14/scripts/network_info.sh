@@ -10,8 +10,14 @@ do
 	ip_bcast=`echo $ip_all | awk '{print $2}'`
 	ip_mask=`echo $ip_all | awk '{print $3}'`
 	echo "    Mac 地址 : "$mac_addr
-	echo "    IP  地址 : "$ip_addr
-	echo "    广播地址 : "$ip_bcast
-	echo "    子网掩码 : "$ip_mask
+	if [ "$ip_addr" != "" ];then 
+		echo "    IP  地址 : "$ip_addr
+	fi
+	if [ "$ip_bcast" != "" ];then
+		echo "    广播地址 : "$ip_bcast
+	fi
+	if [ "$ip_mask" != "" ];then
+		echo "    子网掩码 : "$ip_mask
+	fi
 	echo "-----------------------------"
 done
