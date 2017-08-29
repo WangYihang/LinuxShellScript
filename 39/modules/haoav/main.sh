@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 声明变量
-url='http://se.haoav29.com'
+url='http://se.haoa05.com'
 
 echo '---------- 分类 ---------'
 echo -e '|\t1. 图 片\t|'
